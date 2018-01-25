@@ -1,0 +1,82 @@
+@keyframes flash {
+	from {background-color: #8E41D5;}
+	to {background-color: yellow;}
+}
+
+body {
+	background-image: url('dark_wood.png');
+}
+
+div {
+	background-color: #8E41D5;
+}
+
+a {
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+p {
+	font-weight: bold;
+	color: white;
+	font-family: "Arial";
+	display: block;
+}
+
+h3 {
+	color: #FFBC00;
+	font-size: 40px;
+	font-family: "Passion One";
+	margin-bottom: 0px;
+	text-shadow: 5px 5px 7px black;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.margins {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.border {
+	border: solid 8px black;
+}
+
+#Header {
+	width: 500px;
+	border-radius: 25px;
+	animation-name: flash;
+	animation-duration: 4s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+#Header h1 {
+	font-size: 60px;
+	color: #FFBC00;
+	font-weight: bold;
+	font-family: "Passion One";
+	text-shadow: 5px 5px 7px black;
+}
+
+#LeftNav {
+	width: 400px;
+	border-image: url('border.png') 30 round;
+	float: left;
+	padding-bottom: 8px;
+}
+
+#LeftNav img {
+	opacity: 0.5;
+}
+
+#Content {
+	width: 700px;
+	padding: 15px;
+}
