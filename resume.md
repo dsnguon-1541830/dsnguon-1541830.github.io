@@ -21,4 +21,4 @@ Summary of your role
 - Set on the GMS Tract for Geography Majors
 
 
-[University of Washington]: http://www.univ1.edu
+[University of Washington]: https://www.washington.edu/
